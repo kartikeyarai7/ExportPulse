@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd ../vite-project && npm install && npm run build && cd ../backend && npm install && node server.js",
+    "build": "cd ../vite-project && npm install && npm run build && cd ../backend && npm install",
     "serve": "node server.js"
   },
   "keywords": [],
